@@ -1,0 +1,56 @@
+<!-- Windows -->
+<div ng-show="$uiRoute" ui-route="#/windows">
+	<h2>Installing Ruby on Windows</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>ruby -v</li>
+	</ul>
+	<p>Download</p>
+	<ul>
+		<li><a href="http://rubyinstaller.org/" target="_blank">http://rubyinstaller.org/</a></li>
+		<li>Download (red button)</li>
+	</ul>
+	<p>Install</p>
+	<ul>
+		<li>run the installer</li>
+	</ul>
+	<p>Test</p>
+	<ul>
+		<li>ruby -v</li>
+	</ul>
+</div>
+
+<!-- Mac -->
+<div ng-show="$uiRoute" ui-route="/mac">
+	<h2>Testing Ruby on Mac</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>ruby -v</li>
+	</ul>
+</div>
+
+
+<!-- Linux -->
+<div ng-show="$uiRoute" ui-route="/linux">
+	<h2>Installing Ruby on Linux (Debian)</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>ruby -v</li>
+	</ul>
+	<p>Install</p>
+	<ul>
+		<li>sudo apt-get update</li>
+		<li>sudo apt-get install curl</li>
+		<li>\curl -L https://get.rvm.io | bash -s stable --ruby</li>
+		<li>rvm get stable --autolibs=enable</li>
+		<li>rvm install ruby</li>
+		<li>rvm --default use ruby-2.1.0</li>
+	</ul>
+	<p>Test</p>
+	<ul>
+		<li>ruby -v</li>
+	</ul>
+</div>

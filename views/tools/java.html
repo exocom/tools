@@ -1,0 +1,68 @@
+<!-- Windows -->
+<div ng-show="$uiRoute" ui-route="#/windows">
+	<h2>Installing Java JDK on Windows</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>java -version</li>
+	</ul>
+	<p>Download</p>
+	<ul>
+		<li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html" target="_blank">http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html</a></li>
+		<li>64 bit if you have 64bit</li>
+		<li>32bit - Windows x86	123.64 MB  	  jdk-7u51-windows-i586.exe</li>
+		<li>64bit - Windows x64	125.46 MB  	  jdk-7u51-windows-x64.exe</li>
+	</ul>
+	<p>Install</p>
+	<ul>
+		<li>run installer</li>
+	</ul>
+	<p>Test</p>
+	<ul>
+		<li>java -version</li>
+	</ul>
+</div>
+
+<!-- Mac -->
+<div ng-show="$uiRoute" ui-route="/mac">
+	<h2>Installing Java JDK on Mac</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>java -version</li>
+	</ul>
+	<p>Download</p>
+	<ul>
+		<li><a href="Mac OS X x64	179.49 MB  	  jdk-7u51-macosx-x64.dmg" target="_blank">Mac OS X x64	179.49 MB  	  jdk-7u51-macosx-x64.dmg</a></li>
+	</ul>
+	<p>Install</p>
+	<ul>
+		<li>mount dmg</li>
+		<li>run install</li>
+	</ul>
+	<p>Test</p>
+	<ul>
+		<li>java -version</li>
+	</ul>
+</div>
+
+
+<!-- Linux -->
+<div ng-show="$uiRoute" ui-route="/linux">
+	<h2>Installing Java JDK on Linux (Debian)</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>java -version</li>
+	</ul>
+	<p>Install</p>
+	<ul>
+		<li>sudo add-apt-repository ppa:webupd8team/java</li>
+		<li>sudo apt-get update</li>
+		<li>sudo apt-get install oracle-java7-installer</li>
+	</ul>
+	<p>Test</p>
+	<ul>
+		<li>java -version</li>
+	</ul>
+</div>

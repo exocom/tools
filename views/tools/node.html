@@ -1,0 +1,70 @@
+<!-- Windows -->
+<div ng-show="$uiRoute" ui-route="#/windows">
+	<h2>Installing Node.js on Windows</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>node --version</li>
+	</ul>
+	<p>Download</p>
+	<ul>
+		<li><a href="http://nodejs.org/download/" target="_blank">http://nodejs.org/download/</a></li>
+		<li>Windows Installer (.msi)</li>
+		<li>64 bit if you have 64bit</li>
+	</ul>
+	<p>Install</p>
+	<ul>
+		<li>run installer</li>
+	</ul>
+	<p>Test</p>
+	<ul>
+		<li>node --version</li>
+	</ul>
+</div>
+
+<!-- Mac -->
+<div ng-show="$uiRoute" ui-route="/mac">
+	<h2>Installing Node.js on Mac</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>node --version</li>
+	</ul>
+	<p>Download</p>
+	<ul>
+		<li><a href="http://nodejs.org/download/" target="_blank">http://nodejs.org/download/</a></li>
+		<li>Mac OS X Installer (.pkg)</li>
+	</ul>
+	<p>Install</p>
+	<ul>
+		<li>mount dmg</li>
+		<li>run installer</li>
+	</ul>
+	<p>Test</p>
+	<ul>
+		<li>node --version</li>
+	</ul>
+</div>
+
+
+<!-- Linux -->
+<div ng-show="$uiRoute" ui-route="/linux">
+	<h2>Installing Node.js on Linux (Debian)</h2>
+
+	<p>Test</p>
+	<ul>
+		<li>node --version</li>
+	</ul>
+	<p>Install</p>
+	<ul>
+		<li>sudo apt-get update</li>
+		<li>sudo apt-get install -y python-software-properties python g++ make</li>
+		<li>sudo add-apt-repository ppa:chris-lea/node.js</li>
+		<li>sudo apt-get update</li>
+		<li>sudo apt-get install nodejs</li>
+	</ul>
+	<p>Test</p>
+	<ul>
+		<li>node --version</li>
+	</ul>
+</div>

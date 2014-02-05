@@ -1,0 +1,3 @@
+<div class="btn-group" ng-controller="OsNavCtrl">
+	<a ui-route="#/{{os.key}}" ng-href="{{($uiRoute) ? '' : '/#/' + os.key }}" class="btn btn-primary" ng-class="{disabled:$uiRoute}" ng-repeat="os in oses">{{os.name}}</a>
+</div>

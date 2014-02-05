@@ -1,0 +1,18 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.header {
+  padding: 0 20px;
+  background: #444;
+  color: #fff;
+  .container > .nav {
+    margin-top: 7px;
+  }
+}
+
+.footer {
+  margin-top: 50px;
+  background: rosybrown;
+  color: #fff;
+}
